@@ -54,4 +54,69 @@ body {
 	font-size:1.6rem;
 	line-height:1.5;
 	color:#4F4F4F
+	font-family:'Roboto Mono', monospace;
 }
+h1 {
+	font-family:'Chelsea Market', cursive;
+	font-size:5rem;
+}
+section {
+	padding:4% 0;
+}
+a {
+	text-decoration:none;
+}
+nav {
+	padding:2% 0;
+
+}
+nav a {
+	display:inline-block;
+	padding:1% 0;
+	width:10%;
+	border-radius:10px;
+	text-align:center;
+	color:#fff;
+}
+.orange {
+	background-color:#FF764E
+	margin-left:10%;
+}
+.blue {
+	background-color:#5ED3EB
+	margin:0 24%;
+	
+}
+.yellow {
+	background-color:#FFCD69
+	margin-right:10%;
+}
+.top {
+	text-align:center;
+	position:relative;
+}
+.left img {
+	border-radius:50%;
+	width:70%;
+}
+.left, .right {
+	display:inline-block;
+	text-align: center;
+}
+.left {
+	width:40%;
+}
+.right {
+	width:45%;
+	margin-left:3%;
+	position:absolute;
+	top:40%;
+}
+.heroImg{
+	height:50vh;
+	background-image:url('assets/footer_img.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top;
+}
+
